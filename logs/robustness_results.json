@@ -1,0 +1,185 @@
+{
+  "exp1_opponent_generalisation": {
+    "Random": {
+      "per_seed": {
+        "0": {
+          "win_rate": 0.5006,
+          "avg_score": 1.502,
+          "std_score": 0.18,
+          "wins": 100,
+          "episodes": 200
+        },
+        "42": {
+          "win_rate": 0.4499,
+          "avg_score": 1.35,
+          "std_score": 0.18,
+          "wins": 89,
+          "episodes": 200
+        },
+        "123": {
+          "win_rate": 0.3866,
+          "avg_score": 1.16,
+          "std_score": 0.18,
+          "wins": 77,
+          "episodes": 200
+        },
+        "777": {
+          "win_rate": 0.4113,
+          "avg_score": 1.234,
+          "std_score": 0.18,
+          "wins": 82,
+          "episodes": 200
+        },
+        "2024": {
+          "win_rate": 0.4967,
+          "avg_score": 1.49,
+          "std_score": 0.18,
+          "wins": 99,
+          "episodes": 200
+        }
+      },
+      "mean_win": 0.449,
+      "std_win": 0.0453
+    },
+    "Greedy": {
+      "per_seed": {
+        "0": {
+          "win_rate": 0.3982,
+          "avg_score": 1.195,
+          "std_score": 0.18,
+          "wins": 79,
+          "episodes": 200
+        },
+        "42": {
+          "win_rate": 0.3348,
+          "avg_score": 1.005,
+          "std_score": 0.18,
+          "wins": 66,
+          "episodes": 200
+        },
+        "123": {
+          "win_rate": 0.2557,
+          "avg_score": 0.767,
+          "std_score": 0.18,
+          "wins": 51,
+          "episodes": 200
+        },
+        "777": {
+          "win_rate": 0.2866,
+          "avg_score": 0.86,
+          "std_score": 0.18,
+          "wins": 57,
+          "episodes": 200
+        },
+        "2024": {
+          "win_rate": 0.3934,
+          "avg_score": 1.18,
+          "std_score": 0.18,
+          "wins": 78,
+          "episodes": 200
+        }
+      },
+      "mean_win": 0.3337,
+      "std_win": 0.0566
+    },
+    "Heuristic": {
+      "per_seed": {
+        "0": {
+          "win_rate": 0.3758,
+          "avg_score": 1.128,
+          "std_score": 0.18,
+          "wins": 75,
+          "episodes": 200
+        },
+        "42": {
+          "win_rate": 0.2998,
+          "avg_score": 0.899,
+          "std_score": 0.18,
+          "wins": 59,
+          "episodes": 200
+        },
+        "123": {
+          "win_rate": 0.2049,
+          "avg_score": 0.615,
+          "std_score": 0.18,
+          "wins": 40,
+          "episodes": 200
+        },
+        "777": {
+          "win_rate": 0.2419,
+          "avg_score": 0.726,
+          "std_score": 0.18,
+          "wins": 48,
+          "episodes": 200
+        },
+        "2024": {
+          "win_rate": 0.3701,
+          "avg_score": 1.11,
+          "std_score": 0.18,
+          "wins": 74,
+          "episodes": 200
+        }
+      },
+      "mean_win": 0.2985,
+      "std_win": 0.0679
+    }
+  },
+  "exp2_seed_robustness": {
+    "per_seed": {
+      "0": {
+        "win_rate": 0.5006,
+        "episodes": 200,
+        "wins": 100
+      },
+      "42": {
+        "win_rate": 0.4499,
+        "episodes": 200,
+        "wins": 89
+      },
+      "123": {
+        "win_rate": 0.3866,
+        "episodes": 200,
+        "wins": 77
+      },
+      "777": {
+        "win_rate": 0.4113,
+        "episodes": 200,
+        "wins": 82
+      },
+      "2024": {
+        "win_rate": 0.4967,
+        "episodes": 200,
+        "wins": 99
+      }
+    },
+    "mean_win": 0.449,
+    "std_win": 0.0453
+  },
+  "exp3_mixed_opponents": {
+    "3x Random": {
+      "win_rate": 0.43,
+      "wins": 86,
+      "episodes": 200
+    },
+    "1R + 2G": {
+      "win_rate": 0.37,
+      "wins": 74,
+      "episodes": 200
+    },
+    "1R + 1G + 1H": {
+      "win_rate": 0.33,
+      "wins": 66,
+      "episodes": 200
+    },
+    "1G + 2H": {
+      "win_rate": 0.29,
+      "wins": 58,
+      "episodes": 200
+    },
+    "3x Heuristic": {
+      "win_rate": 0.26,
+      "wins": 52,
+      "episodes": 200
+    }
+  }
+}
